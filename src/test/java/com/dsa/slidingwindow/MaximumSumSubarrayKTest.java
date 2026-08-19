@@ -1,6 +1,5 @@
-package com.dsa;
+package com.dsa.slidingwindow;
 
-import com.dsa.slidingwindow.MaximumSumSubarrayK;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

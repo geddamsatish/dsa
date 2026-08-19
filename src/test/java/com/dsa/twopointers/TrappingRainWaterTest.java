@@ -1,6 +1,5 @@
-package com.dsa;
+package com.dsa.twopointers;
 
-import com.dsa.twopointers.TrappingRainWater;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

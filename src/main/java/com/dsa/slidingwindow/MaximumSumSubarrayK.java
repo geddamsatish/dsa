@@ -12,7 +12,17 @@ public class MaximumSumSubarrayK {
      * @return the maximum sum of any contiguous subarray of size k
      */
     public static int maxSumSubarrayK(int[] nums, int k) {
-        // TODO: Implement solution here
-        return 0;
+        int maxSum = Integer.MIN_VALUE;
+        int windowSum = 0;
+        int j = 0;
+        for (int i = 0; i < nums.length; i++) {
+            windowSum += nums[i];
+            if (i - j + 1 == k) {
+                maxSum = Math.max(maxSum, windowSum);
+                windowSum -= nums[j];
+                j++;
+            }
+        }
+        return maxSum;
     }
 }
