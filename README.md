@@ -12,8 +12,9 @@ A Java Maven project for solving Data Structures and Algorithms interview questi
 | 4 | Valid Triangle Number | Medium | Two Pointers, Array, Sorting | [📄](src/main/java/com/dsa/twopointers/ValidTriangleNumber.md) | [💻](src/main/java/com/dsa/twopointers/ValidTriangleNumber.java) | [🧪](src/test/java/com/dsa/ValidTriangleNumberTest.java) |
 | 5 | Move Zeroes | Easy | Two Pointers, Array | [📄](src/main/java/com/dsa/twopointers/MoveZeroes.md) | [💻](src/main/java/com/dsa/twopointers/MoveZeroes.java) | [🧪](src/test/java/com/dsa/MoveZeroesTest.java) |
 | 6 | Sort Colors | Medium | Two Pointers, Array, Sorting | [📄](src/main/java/com/dsa/twopointers/SortColors.md) | [💻](src/main/java/com/dsa/twopointers/SortColors.java) | [🧪](src/test/java/com/dsa/SortColorsTest.java) |
-| 7 | Trapping Rain Water | Hard | Two Pointers, Array, Dynamic Programming | [📄](src/main/java/com/dsa/twopointers/TrappingRainWater.md) | [💻](src/main/java/com/dsa/twopointers/TrappingRainWater.java) | [🧪](src/test/java/com/dsa/TrappingRainWaterTest.java) |
-| 8 | Maximum Sum of Subarrays of Size K | Easy | Sliding Window, Array | [📄](src/main/java/com/dsa/slidingwindow/MaximumSumSubarrayK.md) | [💻](src/main/java/com/dsa/slidingwindow/MaximumSumSubarrayK.java) | [🧪](src/test/java/com/dsa/MaximumSumSubarrayKTest.java) |
+| 7 | Trapping Rain Water | Hard | Two Pointers, Array, Dynamic Programming | [📄](src/main/java/com/dsa/twopointers/TrappingRainWater.md) | [💻](src/main/java/com/dsa/twopointers/TrappingRainWater.java) | [🧪](src/test/java/com/dsa/twopointers/TrappingRainWaterTest.java) |
+| 8 | Maximum Sum of Subarrays of Size K | Easy | Sliding Window, Array | [📄](src/main/java/com/dsa/slidingwindow/MaximumSumSubarrayK.md) | [💻](src/main/java/com/dsa/slidingwindow/MaximumSumSubarrayK.java) | [🧪](src/test/java/com/dsa/slidingwindow/MaximumSumSubarrayKTest.java) |
+| 9 | Maximum Points You Can Obtain From Cards | Medium | Sliding Window, Array | [📄](src/main/java/com/dsa/slidingwindow/MaximumPointsCards.md) | [💻](src/main/java/com/dsa/slidingwindow/MaximumPointsCards.java) | [🧪](src/test/java/com/dsa/slidingwindow/MaximumPointsCardsTest.java) |
 
 ## Requirements
 
