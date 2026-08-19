@@ -10,7 +10,20 @@ public class ContainerWithMostWater {
      * @return the maximum area of water that can be contained
      */
     public static int maxArea(int[] height) {
-        // TODO: Implement the solution
-        return 0;
+        int maxArea = 0;
+        int left = 0;
+        int right = height.length - 1;
+        while (left < right) {
+            int area = Math.min(height[left], height[right]) * (right - left);
+            if (area > maxArea) {
+                maxArea = area;
+            }
+            if (height[left] < height[right]) {
+                left++;
+            } else{
+                right--;
+            }
+        }
+        return maxArea;
     }
 }
