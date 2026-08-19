@@ -33,13 +33,13 @@ public class ContainerWithMostWaterTest {
     @Test
     public void testIncreasingHeights() {
         int[] height = {1, 2, 3, 4, 5};
-        assertEquals(12, ContainerWithMostWater.maxArea(height));
+        assertEquals(6, ContainerWithMostWater.maxArea(height));
     }
 
     @Test
     public void testDecreasingHeights() {
         int[] height = {5, 4, 3, 2, 1};
-        assertEquals(8, ContainerWithMostWater.maxArea(height));
+        assertEquals(6, ContainerWithMostWater.maxArea(height));
     }
 
     @Test
@@ -69,7 +69,7 @@ public class ContainerWithMostWaterTest {
     @Test
     public void testLargeArrayWithOptimalInMiddle() {
         int[] height = {1, 2, 3, 4, 5, 10, 9, 8, 7, 6};
-        assertEquals(45, ContainerWithMostWater.maxArea(height));
+        assertEquals(25, ContainerWithMostWater.maxArea(height));
     }
 
     @Test
