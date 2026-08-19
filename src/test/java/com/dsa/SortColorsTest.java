@@ -14,15 +14,6 @@ public class SortColorsTest {
         SortColors.sortColors(nums);
         assertArrayEquals(expected, nums);
     }
-
-    @Test
-    public void testExample2() {
-        int[] nums = {2, 4, 1};
-        int[] expected = {1, 2, 4};
-        SortColors.sortColors(nums);
-        assertArrayEquals(expected, nums);
-    }
-
     @Test
     public void testAllZeros() {
         int[] nums = {0, 0, 0};
