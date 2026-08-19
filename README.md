@@ -10,25 +10,6 @@ A Java Maven project for solving Data Structures and Algorithms interview questi
 | 2 | Container With Most Water | Medium | Two Pointers, Array | [📄](src/main/java/com/dsa/twopointers/ContainerWithMostWater.md) | [💻](src/main/java/com/dsa/twopointers/ContainerWithMostWater.java) | [🧪](src/test/java/com/dsa/ContainerWithMostWaterTest.java) |
 | 3 | 3Sum | Medium | Two Pointers, Array, Sorting | [📄](src/main/java/com/dsa/twopointers/ThreeSum.md) | [💻](src/main/java/com/dsa/twopointers/ThreeSum.java) | [🧪](src/test/java/com/dsa/ThreeSumTest.java) |
 
-## Project Structure
-
-```
-src/
-├── main/java/com/dsa/
-│   ├── twopointers/          # Two Pointer Approach problems
-│   │   ├── TwoSumSortedArray.java
-│   │   ├── TwoSumSortedArray.md
-│   │   ├── ContainerWithMostWater.java
-│   │   ├── ContainerWithMostWater.md
-│   │   ├── ThreeSum.java
-│   │   └── ThreeSum.md
-│   └── Solution.java         # Template solution
-└── test/java/com/dsa/        # Test classes
-    ├── TwoSumSortedArrayTest.java
-    ├── ContainerWithMostWaterTest.java
-    └── ThreeSumTest.java
-```
-
 ## Requirements
 
 - Java 17+
