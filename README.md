@@ -9,6 +9,7 @@ A Java Maven project for solving Data Structures and Algorithms interview questi
 | 1 | Two Sum Sorted Array | Easy | Two Pointers | [📄](src/main/java/com/dsa/twopointers/TwoSumSortedArray.md) | [💻](src/main/java/com/dsa/twopointers/TwoSumSortedArray.java) | [🧪](src/test/java/com/dsa/TwoSumSortedArrayTest.java) |
 | 2 | Container With Most Water | Medium | Two Pointers, Array | [📄](src/main/java/com/dsa/twopointers/ContainerWithMostWater.md) | [💻](src/main/java/com/dsa/twopointers/ContainerWithMostWater.java) | [🧪](src/test/java/com/dsa/ContainerWithMostWaterTest.java) |
 | 3 | 3Sum | Medium | Two Pointers, Array, Sorting | [📄](src/main/java/com/dsa/twopointers/ThreeSum.md) | [💻](src/main/java/com/dsa/twopointers/ThreeSum.java) | [🧪](src/test/java/com/dsa/ThreeSumTest.java) |
+| 4 | Valid Triangle Number | Medium | Two Pointers, Array, Sorting | [📄](src/main/java/com/dsa/twopointers/ValidTriangleNumber.md) | [💻](src/main/java/com/dsa/twopointers/ValidTriangleNumber.java) | [🧪](src/test/java/com/dsa/ValidTriangleNumberTest.java) |
 
 ## Requirements
 
