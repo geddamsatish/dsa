@@ -121,7 +121,7 @@ public class TrappingRainWaterTest {
     @Test
     public void testAsymmetricWalls() {
         int[] height = {2, 1, 0, 1, 2, 1, 0, 1};
-        int expected = 3;
+        int expected = 5;
         int result = TrappingRainWater.trap(height);
         assertEquals(expected, result);
     }
