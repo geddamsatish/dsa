@@ -45,7 +45,7 @@ public class MaximumSumSubarrayKTest {
     public void testMixedPositiveNegative() {
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         int k = 3;
-        int expected = 4;
+        int expected = 5;
         int result = MaximumSumSubarrayK.maxSumSubarrayK(nums, k);
         assertEquals(expected, result);
     }
@@ -99,7 +99,7 @@ public class MaximumSumSubarrayKTest {
     public void testAlternatingValues() {
         int[] nums = {1, -1, 1, -1, 1};
         int k = 2;
-        int expected = 1;
+        int expected = 0;
         int result = MaximumSumSubarrayK.maxSumSubarrayK(nums, k);
         assertEquals(expected, result);
     }
