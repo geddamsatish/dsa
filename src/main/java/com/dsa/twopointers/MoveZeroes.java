@@ -9,6 +9,16 @@ public class MoveZeroes {
      * @param nums array of integers to modify in-place
      */
     public static void moveZeroes(int[] nums) {
-        // TODO: Implement the solution
+        int slowPtr = 0;
+        for(int fastPtr = 0; fastPtr < nums.length; fastPtr++) {
+            if(nums[fastPtr] != 0) {
+                if(fastPtr != slowPtr) {
+                    int temp = nums[fastPtr];
+                    nums[fastPtr] = nums[slowPtr];
+                    nums[slowPtr] = temp;
+                }
+                slowPtr++;
+            }
+        }
     }
 }
