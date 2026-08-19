@@ -39,7 +39,7 @@ public class ValidTriangleNumberTest {
     @Test
     public void testWithZeros() {
         int[] nums = {0, 0, 1, 2, 3};
-        assertEquals(1, ValidTriangleNumber.triangleNumber(nums));
+        assertEquals(0, ValidTriangleNumber.triangleNumber(nums));
     }
 
     @Test
@@ -63,19 +63,19 @@ public class ValidTriangleNumberTest {
     @Test
     public void testLargeNumbers() {
         int[] nums = {100, 200, 300, 400};
-        assertEquals(3, ValidTriangleNumber.triangleNumber(nums));
+        assertEquals(1, ValidTriangleNumber.triangleNumber(nums));
     }
 
     @Test
     public void testMixedValues() {
         int[] nums = {1, 1, 1, 2, 2, 3};
-        assertEquals(4, ValidTriangleNumber.triangleNumber(nums));
+        assertEquals(5, ValidTriangleNumber.triangleNumber(nums));
     }
 
     @Test
     public void testIncreasingSequence() {
         int[] nums = {1, 2, 3, 4, 5};
-        assertEquals(7, ValidTriangleNumber.triangleNumber(nums));
+        assertEquals(3, ValidTriangleNumber.triangleNumber(nums));
     }
 
     @Test
@@ -87,6 +87,6 @@ public class ValidTriangleNumberTest {
     @Test
     public void testSmallValidValues() {
         int[] nums = {2, 3, 4, 5, 6};
-        assertEquals(10, ValidTriangleNumber.triangleNumber(nums));
+        assertEquals(7, ValidTriangleNumber.triangleNumber(nums));
     }
 }
