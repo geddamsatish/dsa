@@ -17,6 +17,7 @@ A Java Maven project for solving Data Structures and Algorithms interview questi
 | 9 | Maximum Points You Can Obtain From Cards | Medium | Sliding Window, Array | [📄](src/main/java/com/dsa/slidingwindow/MaximumPointsCards.md) | [💻](src/main/java/com/dsa/slidingwindow/MaximumPointsCards.java) | [🧪](src/test/java/com/dsa/slidingwindow/MaximumPointsCardsTest.java) |
 | 10 | Meeting Rooms | Easy | Intervals, Sorting | [📄](src/main/java/com/dsa/intervals/MeetingRooms.md) | [💻](src/main/java/com/dsa/intervals/MeetingRooms.java) | [🧪](src/test/java/com/dsa/intervals/MeetingRoomsTest.java) |
 | 11 | Insert Interval | Medium | Intervals, Greedy | [📄](src/main/java/com/dsa/intervals/InsertInterval.md) | [💻](src/main/java/com/dsa/intervals/InsertInterval.java) | [🧪](src/test/java/com/dsa/intervals/InsertIntervalTest.java) |
+| 12 | Non-overlapping Intervals | Medium | Intervals, Greedy, Sorting | [📄](src/main/java/com/dsa/intervals/NonOverlappingIntervals.md) | [💻](src/main/java/com/dsa/intervals/NonOverlappingIntervals.java) | [🧪](src/test/java/com/dsa/intervals/NonOverlappingIntervalsTest.java) |
 
 ## Requirements
 
