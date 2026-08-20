@@ -15,6 +15,7 @@ A Java Maven project for solving Data Structures and Algorithms interview questi
 | 7 | Trapping Rain Water | Hard | Two Pointers, Array, Dynamic Programming | [📄](src/main/java/com/dsa/twopointers/TrappingRainWater.md) | [💻](src/main/java/com/dsa/twopointers/TrappingRainWater.java) | [🧪](src/test/java/com/dsa/twopointers/TrappingRainWaterTest.java) |
 | 8 | Maximum Sum of Subarrays of Size K | Easy | Sliding Window, Array | [📄](src/main/java/com/dsa/slidingwindow/MaximumSumSubarrayK.md) | [💻](src/main/java/com/dsa/slidingwindow/MaximumSumSubarrayK.java) | [🧪](src/test/java/com/dsa/slidingwindow/MaximumSumSubarrayKTest.java) |
 | 9 | Maximum Points You Can Obtain From Cards | Medium | Sliding Window, Array | [📄](src/main/java/com/dsa/slidingwindow/MaximumPointsCards.md) | [💻](src/main/java/com/dsa/slidingwindow/MaximumPointsCards.java) | [🧪](src/test/java/com/dsa/slidingwindow/MaximumPointsCardsTest.java) |
+| 10 | Meeting Rooms | Easy | Intervals, Sorting | [📄](src/main/java/com/dsa/intervals/MeetingRooms.md) | [💻](src/main/java/com/dsa/intervals/MeetingRooms.java) | [🧪](src/test/java/com/dsa/intervals/MeetingRoomsTest.java) |
 
 ## Requirements
 
